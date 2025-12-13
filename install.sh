@@ -16,17 +16,16 @@ pip install bs4
 pip install rich
 pip install lxml
 pip install requests
-sudo apt install php
-apt-get install curl
+pip install colorama
 
 echo "Baixando o arquivo zip..."
-curl -L -o /tmp/v4p.zip "https://github.com/tdtplay/V4/raw/refs/heads/main/v4p.zip"
+curl -L -o /tmp/o11Hom.zip "https://github.com/tdtplay/homv4/raw/refs/heads/main/o11Hom.zip"
 
-unzip /tmp/v4p.zip -d /root/o11
-chmod -R 777 /root/o11
-rm /tmp/v4p.zip
+unzip /tmp/v4p.zip -d /home/o11
+chmod -R 777 /home/o11
+rm /tmp/o11Hom.zip
 
-cd /root/o11
+cd /home/o11
 
 curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash
 
