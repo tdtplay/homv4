@@ -10,7 +10,7 @@ apt install unzip software-properties-common
 echo "Instalando ffmpeg..."
 apt update
 apt install ffmpeg
-sudo apt install python3-pip
+apt install python3-pip
 pip install curl-cffi
 pip install bs4
 pip install rich
