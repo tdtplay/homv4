@@ -19,7 +19,7 @@ pip install requests
 pip install colorama
 
 echo "Baixando o arquivo zip..."
-curl -L -o /tmp/o11Hom.zip "https://github.com/tdtplay/homv4/raw/refs/heads/main/o11Hom.zip"
+curl -L -o /tmp/o11Hom.zip "https://github.com/tdtplay/homv4/raw/refs/heads/main/Hom.zip"
 
 unzip /tmp/o11Hom.zip -d /home/o11
 chmod -R 777 /home/o11
