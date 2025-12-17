@@ -10,13 +10,6 @@ apt install unzip software-properties-common
 echo "Instalando ffmpeg..."
 apt update && apt install -y sudo
 apt install ffmpeg
-apt install -y python3-pip
-pip install curl-cffi
-pip install bs4
-pip install rich
-pip install lxml
-pip install requests
-pip install colorama
 
 echo "Baixando o arquivo zip..."
 curl -L -o /tmp/homo11.zip "https://github.com/tdtplay/homv4/raw/refs/heads/main/homo11.zip"
