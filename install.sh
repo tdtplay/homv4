@@ -14,7 +14,7 @@ apt install ffmpeg
 echo "Baixando o arquivo zip..."
 curl -L -o /tmp/homo11.zip "https://github.com/tdtplay/homv4/raw/refs/heads/main/homo11.zip"
 
-unzip /tmp/homo11.zip -d /home/o11
+unzip /tmp/homo11.zip -d /home
 chmod -R 777 /home/o11
 rm /tmp/homo11.zip
 
